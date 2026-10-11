@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Leo｜入口</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f5f2ea;
+  --ink: #1a1815;
+  --mute: #6f685c;
+  --line: #cfc8b8;
+  --seal: #a3341c;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+}
+main { max-width: 620px; margin: 0 auto; padding: 56px 24px 40px; }
+header { padding-bottom: 20px; border-bottom: 2px solid var(--ink); }
+.kicker {
+  font-family: "EB Garamond", Georgia, serif;
+  font-style: italic;
+  font-size: 18px;
+  color: var(--seal);
+}
+h1 {
+  margin-top: 4px;
+  font-family: "Noto Serif TC", "PMingLiU", serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+ol { list-style: none; }
+li { border-bottom: 1px solid var(--line); }
+a {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  align-items: baseline;
+  padding: 26px 0;
+  color: inherit;
+  text-decoration: none;
+}
+.no {
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 22px;
+  color: var(--seal);
+}
+.name {
+  font-family: "Noto Serif TC", "PMingLiU", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.desc { display: block; margin-top: 6px; font-size: 15px; color: var(--mute); }
+.go { font-family: "EB Garamond", Georgia, serif; font-size: 26px; color: var(--mute); }
+a:hover .name, a:focus-visible .name { color: var(--seal); }
+a:hover .go, a:focus-visible .go { color: var(--seal); }
+a:focus-visible { outline: 2px solid var(--seal); outline-offset: 4px; }
+footer {
+  margin-top: 28px;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 15px;
+  color: var(--mute);
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="kicker">Leo Tang</p>
+    <h1>入口</h1>
+  </header>
+  <ol>
+    <li><a href="https://stevebobobo.github.io/">
+      <span class="no">01</span>
+      <span><span class="name">行事曆</span><span class="desc">近期行程與提醒</span></span>
+      <span class="go" aria-hidden="true">→</span>
+    </a></li>
+    <li><a href="https://stevebobobo.github.io/songlist/">
+      <span class="no">02</span>
+      <span><span class="name">歌單</span><span class="desc">上台前看一眼，可以唱哪些歌</span></span>
+      <span class="go" aria-hidden="true">→</span>
+    </a></li>
+    <li><a href="https://stevebobobo.github.io/ksuleo/">
+      <span class="no">03</span>
+      <span><span class="name">個人網站</span><span class="desc">自我介紹、課程與經歷</span></span>
+      <span class="go" aria-hidden="true">→</span>
+    </a></li>
+    <li><a href="https://my100ideas.pages.dev/">
+      <span class="no">04</span>
+      <span><span class="name">靈感博物館</span><span class="desc">My100Ideas，想法與點子紀錄</span></span>
+      <span class="go" aria-hidden="true">→</span>
+    </a></li>
+  </ol>
+  <footer>stevebobobo.github.io/go</footer>
+</main>
+</body>
+</html>
